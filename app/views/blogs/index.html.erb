@@ -1,0 +1,44 @@
+<h1>博客后台</h1>
+<div class="container">
+  <form action="<%=search_admin_users_path %>" method="get">
+    用户名: <input type="text" name="user_name" value="<%= params[:user_name] %>">
+    <input type="submit" name="提交"/>
+
+    <%= link_to '新增博客', new_blog_path, class: "pull_right" %>
+  </form>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+      <th width="15%">id</th>
+      <th width="20%">标题</th>
+      <th width="20%">标签</th>
+      <th width="10%">作者</th>
+      <th width="10%">操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @blogs.each do |r| %>
+      <tr>
+        <td><%= r.id %></td>
+        <td> <%=link_to  r.title , blog_path(r)  %> </td>
+        <td>
+          <% r.tags.each do |tag| %>
+            <span class="badge"> <%=tag.name %> </span>
+            <% end %>
+            </td>
+        <td> <%= r.user.user_name  %> </td>
+        <td> <%= link_to "编辑",edit_blog_path(r) %> </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+  <%= will_paginate @blogs %>
+</div>
+
+<style>
+  .pull_right{
+    float: right;
+  }
+</style>

@@ -2,15 +2,181 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6e4254-bc48-4626-b1f7-52ee02aa56b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Circle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/checkout_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/variants_controller.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/address.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/blogs_tags.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/cart_item.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/catalog.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/line_item.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/person.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/variant.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/home/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/users/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/application/_flash.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/application/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/application/_footer.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/application/_navbar.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/application/_sider.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/checkout/address.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/checkout/cart.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/devise.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/order_mailer/confirm_email.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/order_mailer/confirm_email.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/_errors.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/_input.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/_product.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/destroy.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/products/update.json.jbuilder" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_intro.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/_variant.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/variants/show.json.jbuilder" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/secrets.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150318053105_create_products.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150328135848_create_variants.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150405093154_devise_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150430090443_add_color_to_variants.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150602124315_add_columns_to_products.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150610153357_create_addresses.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150612044358_create_orders.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150612052304_add_orders_count_to_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150612082502_create_line_items.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150613070440_create_join_table.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150613074050_create_catalogs.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150627170639_add_role_to_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,17 +193,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20211128121107_add_user_id_to_line_item.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="27" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="585">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="374">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/checkout_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>models</find>
+      <find>services</find>
+      <find>default_load</find>
+      <find>managers_employees</find>
+      <find>rails-ujs</find>
+      <find>autoprefixer-rails</find>
+      <find>foreign_key</find>
+      <find>editProductForm</find>
+      <find>error_span</find>
+      <find>line</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,86 +280,957 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211121113257_create_tags.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211121113344_add_tag_blog.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211123065750_create_employees.rb" />
+        <option value="$PROJECT_DIR$/app/models/employee.rb" />
+        <option value="$PROJECT_DIR$/app/models/blogs_tags.rb" />
+        <option value="$PROJECT_DIR$/app/models/tag.rb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/blog.rb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/address.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/activerecord-5.1.2/lib/active_record/railties/databases.rake" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/blogs.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/products.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/variants/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/variants_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/_product.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/_input.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/_navbar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/_flash.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/_sider.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150627170639_add_role_to_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150613074050_create_catalogs.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150613070440_create_join_table.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150612082502_create_line_items.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150612052304_add_orders_count_to_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150612044358_create_orders.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150610153357_create_addresses.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150602124315_add_columns_to_products.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150430090443_add_color_to_variants.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150405093154_devise_create_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150328135848_create_variants.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150318053105_create_products.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211128121107_add_user_id_to_line_item.rb" />
+        <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/checkout_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/Circle.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
+    <option name="x" value="58" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="935" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter" />
-    <factor id="binaryFeature:liftShorterClasses" />
-    <factor id="binaryFeature:middleMatching" />
-    <factor id="binaryFeature:nonGeneric" />
-    <factor id="binaryFeature:prox_inResolveScope" />
-    <factor id="binaryFeature:prox_openedInEditor" />
-    <factor id="binaryFeature:prox_sameDirectory" />
-    <factor id="binaryFeature:prox_sameLogicalRoot" />
-    <factor id="binaryFeature:prox_sdkOrLibrary" />
-    <factor id="binaryFeature:templates" />
-    <factor id="categoricalFeature:accessible" />
-    <factor id="categoricalFeature:expectedType" />
-    <factor id="categoricalFeature:kind" />
-    <factor id="categoricalFeature:prox_groovyReferenceListWeigher" />
-    <factor id="categoricalFeature:prox_javaInheritance" />
-    <factor id="categoricalFeature:prox_referenceList" />
-    <factor id="categoricalFeature:recursion" />
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="21-11-2021">
+        <observation name="false" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="false" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="false" value="161.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="21-11-2021">
+        <observation name="false" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="false" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="false" value="162.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="false" value="7.0" />
+        <observation name="true" value="16.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="false" value="6.0" />
+        <observation name="true" value="25.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="false" value="20.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="false" value="29.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="false" value="22.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="false" value="31.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="false" value="23.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="false" value="31.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="false" value="23.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="false" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="false" value="29.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="21-11-2021">
+        <observation name="false" value="107.0" />
+        <observation name="true" value="3.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="false" value="14.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="false" value="153.0" />
+        <observation name="true" value="10.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
     <factor id="completionFinishedType">
       <dailyData date="21-11-2021">
+        <observation name="cancelled" value="130.0" />
+        <observation name="explicitSelect" value="79.0" />
+        <observation name="typedSelect" value="31.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="cancelled" value="10.0" />
+        <observation name="explicitSelect" value="10.0" />
+        <observation name="typedSelect" value="5.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
         <observation name="cancelled" value="3.0" />
+        <observation name="explicitSelect" value="1.0" />
+        <observation name="typedSelect" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="cancelled" value="173.0" />
+        <observation name="explicitSelect" value="91.0" />
+        <observation name="typedSelect" value="72.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="21-11-2021">
-        <observation name="BASIC" value="2.0" />
+        <observation name="BASIC" value="202.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="BASIC" value="24.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="BASIC" value="5.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="BASIC" value="289.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="21-11-2021">
-        <observation name="count" value="3.0" />
+        <observation name="count" value="240.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="count" value="25.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="count" value="5.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="count" value="336.0" />
       </dailyData>
     </factor>
-    <factor id="doubleFeature:explicitProximity" />
-    <factor id="doubleFeature:grouping" />
-    <factor id="doubleFeature:mostUsed" />
-    <factor id="doubleFeature:nameEnd" />
-    <factor id="doubleFeature:position" />
-    <factor id="doubleFeature:prefix" />
-    <factor id="doubleFeature:priority" />
-    <factor id="doubleFeature:prox_explicitlyImported" />
-    <factor id="doubleFeature:prox_knownElement" />
-    <factor id="doubleFeature:prox_sameModule" />
-    <factor id="doubleFeature:prox_samePsiMember" />
-    <factor id="doubleFeature:query_length" />
-    <factor id="doubleFeature:result_length" />
-    <factor id="doubleFeature:sameWords" />
-    <factor id="doubleFeature:shorter" />
-    <factor id="doubleFeature:simple" />
-    <factor id="doubleFeature:sorter" />
-    <factor id="doubleFeature:statics" />
-    <factor id="doubleFeature:stats" />
-    <factor id="itemPosition" />
-    <factor id="mnemonicsUsage" />
-    <factor id="prefixLength" />
-    <factor id="timeBetweenTyping" />
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="321.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="321.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="8.479452" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="314.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="775.069407" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="6.655172" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="33.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="56.636569" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="0.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.055556" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="6.295385" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="360.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="613.018189" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="-583.378995" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1157.0" />
+        <observation name="variance" value="280967.604489" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="-516.655172" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="221687.434695" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="-768.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="73856.055556" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="-616.132308" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1157.0" />
+        <observation name="variance" value="274185.518738" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="-58.958904" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="120.0" />
+        <observation name="min" value="-1000.0" />
+        <observation name="variance" value="76965.323209" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="33.793103" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="120.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="1489.706489" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="-266.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-400.0" />
+        <observation name="variance" value="8888.888889" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="-96.633846" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="120.0" />
+        <observation name="min" value="-1000.0" />
+        <observation name="variance" value="63417.6506" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="87.0" />
+        <observation name="average" value="0.355555" />
+        <observation name="count" value="45.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.374051" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="14.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="132.0" />
+        <observation name="average" value="0.459016" />
+        <observation name="count" value="61.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.52844" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="8.251142" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="33.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="34.314244" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="8.793103" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="19.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="14.399331" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="2.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.888889" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="6.876923" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="33.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="20.81012" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="21-11-2021">
+        <observation name="UNDEFINED" value="110.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="3078.767124" />
+        <observation name="count" value="219.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18166342.489242" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="2756.206897" />
+        <observation name="count" value="29.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13184608.306538" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="4273.141539" />
+        <observation name="count" value="325.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="21348229.821224" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="21-11-2021">
+        <observation name="0" value="20.0" />
+        <observation name="1" value="26.0" />
+        <observation name="10" value="1.0" />
+        <observation name="12" value="1.0" />
+        <observation name="14" value="1.0" />
+        <observation name="17" value="1.0" />
+        <observation name="173" value="2.0" />
+        <observation name="2" value="12.0" />
+        <observation name="3" value="5.0" />
+        <observation name="314" value="1.0" />
+        <observation name="4" value="2.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="1.0" />
+        <observation name="61" value="1.0" />
+        <observation name="7" value="2.0" />
+        <observation name="8" value="1.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="1.0" />
+        <observation name="11" value="1.0" />
+        <observation name="18" value="2.0" />
+        <observation name="3" value="1.0" />
+        <observation name="33" value="1.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="1" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="0" value="23.0" />
+        <observation name="1" value="24.0" />
+        <observation name="11" value="2.0" />
+        <observation name="136" value="1.0" />
+        <observation name="16" value="1.0" />
+        <observation name="18" value="1.0" />
+        <observation name="2" value="11.0" />
+        <observation name="20" value="1.0" />
+        <observation name="23" value="1.0" />
+        <observation name="3" value="9.0" />
+        <observation name="33" value="1.0" />
+        <observation name="360" value="1.0" />
+        <observation name="4" value="1.0" />
+        <observation name="5" value="1.0" />
+        <observation name="52" value="1.0" />
+        <observation name="6" value="2.0" />
+        <observation name="60" value="1.0" />
+        <observation name="7" value="4.0" />
+        <observation name="8" value="3.0" />
+        <observation name="81" value="1.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="21-11-2021">
+        <observation name="total" value="67.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="total" value="9.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="total" value="1.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="total" value="73.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="21-11-2021">
+        <observation name="0" value="5.0" />
+        <observation name="1" value="7.0" />
+        <observation name="10" value="1.0" />
+        <observation name="19" value="1.0" />
+        <observation name="2" value="20.0" />
+        <observation name="3" value="20.0" />
+        <observation name="4" value="14.0" />
+        <observation name="5" value="7.0" />
+        <observation name="7" value="2.0" />
+        <observation name="8" value="1.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="1" value="1.0" />
+        <observation name="2" value="5.0" />
+        <observation name="3" value="2.0" />
+        <observation name="5" value="2.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="2" value="1.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="0" value="4.0" />
+        <observation name="1" value="14.0" />
+        <observation name="10" value="2.0" />
+        <observation name="12" value="1.0" />
+        <observation name="17" value="1.0" />
+        <observation name="2" value="19.0" />
+        <observation name="3" value="19.0" />
+        <observation name="4" value="19.0" />
+        <observation name="5" value="2.0" />
+        <observation name="6" value="6.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="2.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="21-11-2021">
+        <observation name="average" value="314.156863" />
+        <observation name="count" value="255.0" />
+      </dailyData>
+      <dailyData date="23-11-2021">
+        <observation name="average" value="427.0" />
+        <observation name="count" value="18.0" />
+      </dailyData>
+      <dailyData date="25-11-2021">
+        <observation name="average" value="110.333333" />
+        <observation name="count" value="3.0" />
+      </dailyData>
+      <dailyData date="28-11-2021">
+        <observation name="average" value="240.174224" />
+        <observation name="count" value="419.0" />
+      </dailyData>
+    </factor>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -132,7 +1238,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,26 +1260,14 @@
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Circle" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="concerns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Circle" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
@@ -187,7 +1280,58 @@
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="devise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="order_mailer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
@@ -199,24 +1343,27 @@
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db/migrate" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -229,10 +1376,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db/migrate" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/controllers" />
-      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
@@ -353,90 +1500,412 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637467560196</updated>
-      <workItem from="1637467561367" duration="1733000" />
+      <workItem from="1637467561367" duration="3393000" />
+      <workItem from="1637480272932" duration="1705000" />
+      <workItem from="1637485223667" duration="5618000" />
+      <workItem from="1637650608094" duration="1343000" />
+      <workItem from="1637801729303" duration="2112000" />
+      <workItem from="1637820347585" duration="591000" />
+      <workItem from="1638070414119" duration="5556000" />
+      <workItem from="1638079283032" duration="12000" />
+      <workItem from="1638079395958" duration="1081000" />
+      <workItem from="1638085734014" duration="362000" />
+      <workItem from="1638086994999" duration="2516000" />
+      <workItem from="1638096235666" duration="6097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1733000" />
+    <option name="totallyTimeSpent" value="30386000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="23" width="1680" height="935" extended-state="0" />
+    <frame x="58" y="23" width="1680" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19315404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32893157" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.88536584" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297362" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297362" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32374102" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32853717" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Circle@Development__Circle.rcov" NAME="Development: Circle Coverage Results" MODIFIED="1637480833652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Circle" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/products/update.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/variants/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/variant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/variants_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/variants/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/variants/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_product.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_input.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/_navbar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/_flash.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/_sider.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" lean-forward="true" selection-start-column="51" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150627170639_add_role_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150613074050_create_catalogs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150613070440_create_join_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150612082502_create_line_items.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150612052304_add_orders_count_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150612044358_create_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150610153357_create_addresses.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150602124315_add_columns_to_products.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150430090443_add_color_to_variants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150405093154_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150328135848_create_variants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/checkout/cart.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150318053105_create_products.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/address.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/checkout/address.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="203">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211128121107_add_user_id_to_line_item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="27" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/checkout_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

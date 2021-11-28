@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Circles</title>
-  <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-</head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><%= content_for?(:title) ? yield(:title) : "Shop" %></title>
+<%= csrf_meta_tags %>
 
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Circles</a>
-    </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="<%= new_user_path %>">注册</a></li>
-        <% if session[:user_id] %>
-          <li><%= link_to '退出', logout_sessions_path, method: :delete %></li>
-        <% else %>
-          <li><%= link_to '登录', new_session_path %></li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+<![endif]-->
 
+<%= stylesheet_link_tag "application", :media => "all" %>
+
+<!-- For third-generation iPad with high-resolution Retina display: -->
+<!-- Size should be 144 x 144 pixels -->
 
 <body>
-<%= yield %>
+<%= render "navbar" %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 mb-10">
+      <%= render "flash" %>
+      <%= yield %>
+    </div>
+    <div class="col-lg-3">
+      <%= render "sider" %>
+    </div><!--/span-->
+  </div><!--/row-->
+</div> <!-- /container -->
+<%= render "footer" %>
+<%= yield(:page_modal) if content_for?(:page_modal) %>
+<%= javascript_include_tag "application" %>
+<%= yield(:page_javascript) if content_for?(:page_javascript) %>
 </body>
 </html>

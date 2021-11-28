@@ -29,6 +29,9 @@ gem 'nokogiri', '1.10.10'
 gem 'nio4r', '2.4.0'
 gem 'globalid', '0.4.2'
 gem 'bootstrap-sass','3.3.7'
+gem 'will_paginate', '~> 3.3', '>= 3.3.1'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -54,3 +57,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "responders"
+gem "ransack"
+gem 'alipay', '~> 0.7.1'

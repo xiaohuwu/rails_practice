@@ -1,5 +1,6 @@
 class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :edit, :update, :destroy]
+  respond_to :html
 
   def index
     @orders = Order.paginate(:page => params[:page], :per_page => 2)

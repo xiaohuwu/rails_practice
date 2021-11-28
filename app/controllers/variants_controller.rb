@@ -5,6 +5,7 @@ class VariantsController < ApplicationController
   # GET /variants.json
   def index
     @variants = Variant.all
+    @product = Product.find params[:product_id]
   end
 
   # GET /variants/1
@@ -24,11 +25,11 @@ class VariantsController < ApplicationController
   # POST /variants
   # POST /variants.json
   def create
-    @variant = Variant.new(variant_params)
+    @variant = Variant.new(variant_params.merge(product_id: params[:product_id]))
 
     respond_to do |format|
       if @variant.save
-        format.html { redirect_to @variant, notice: 'Variant was successfully created.' }
+        format.html { redirect_to product_variants_path, notice: 'Variant was successfully created.' }
         format.json { render :show, status: :created, location: @variant }
       else
         format.html { render :new }
@@ -42,7 +43,7 @@ class VariantsController < ApplicationController
   def update
     respond_to do |format|
       if @variant.update(variant_params)
-        format.html { redirect_to @variant, notice: 'Variant was successfully updated.' }
+        format.html { redirect_to product_variants_path, notice: 'Variant was successfully updated.' }
         format.json { render :show, status: :ok, location: @variant }
       else
         format.html { render :edit }
@@ -56,7 +57,7 @@ class VariantsController < ApplicationController
   def destroy
     @variant.destroy
     respond_to do |format|
-      format.html { redirect_to variants_url, notice: 'Variant was successfully destroyed.' }
+      format.html { redirect_to product_variants_path, notice: 'Variant was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -69,6 +70,6 @@ class VariantsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def variant_params
-      params.require(:variant).permit(:product_id, :price, :size)
+      params.require(:variant).permit(:price, :size)
     end
 end

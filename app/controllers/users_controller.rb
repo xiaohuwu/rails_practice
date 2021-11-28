@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+
+
    def index
        @users= User.page(params[:page]||1).per_page(params[:per_page]||4)
        .order('id desc')
@@ -19,6 +21,9 @@ class UsersController < ApplicationController
             redirect_to new_session_path
         end
     end
+
+    private
+
 
 
 end

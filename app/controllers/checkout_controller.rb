@@ -6,8 +6,8 @@ class CheckoutController < ApplicationController
   # Cart => Checkout
   def checkout
     # OPTIMIZE
-    items_params.each do |item|
-      current_user.cart_items.update(item[0], quantity: item[1]["quantity"])
+    items_params.each do |key,value|
+      current_user.cart_items.find(key).update(quantity: value["quantity"])
     end
     redirect_to address_path, notice: "确认你的收货地址"
   end
@@ -22,18 +22,19 @@ class CheckoutController < ApplicationController
   # Address => Confirm
   def confirm
     current_user.address.update(address_params)
-    @order = Order.create(user: current_user, number: Time.zone.now.strftime("%y%m%d%H%M%S"), payment_state: "confirm")
+    @order = Order.create!(user: current_user, number: Time.zone.now.strftime("%y%m%d%H%M%S"), payment_state: "confirm")
     current_user.cart_items.each do |item|
-      @order.line_items << LineItem.new(quantity: item.quantity, variant: item.variant)
+      logger.info "item:#{item.to_json}"
+      @order.line_items.create!(quantity: item.quantity, variant: item.variant,user_id: current_user.id)
     end
-    current_user.cart_items.destroy
+    current_user.cart_items.destroy_all
     redirect_to order_path(@order.number), notice: "订单已确认，请支付。"
   end
 
   # 点击支付按钮，跳转到支付宝页面
   def pay
     order = Order.find_by(number: params[:number])
-    alipay_url = Alipay::Service.create_partner_trade_by_buyer_url(
+    alipay_url = ::Alipay::Service.create_partner_trade_by_buyer_url(
       out_trade_no: order.number,
       subject: order.number,
       price: '10.00',

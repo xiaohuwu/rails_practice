@@ -1,0 +1,34 @@
+<h1>修改博客</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <%= form_for @blog, url: (@blog.new_record? ?  blogs_path : blog_path), method: (@blog.new_record? ?  "POST" : "PUT") do |f| %>
+
+        <div class="form-group">
+          <ul>
+            <% @blog.errors.messages.values.flatten.each do |error| %>
+              <li><%= error %></li>
+            <% end %>
+          </ul>
+        </div>
+
+        <div class="form-group">
+          <label for="name">标题</label>
+          <%= f.text_field :title, class: "form-control", placeholder: "请输入名称" %>
+        </div>
+
+        <div class="form-group">
+          <label for="name">标签</label>
+          <input type="text" name="tags" class="form-control" placeholder="请输入名称" value="<%=@blog.tags.collect { |item| item.name }.join(',') %>">
+        </div>
+
+        <div class="form-group">
+          <label for="name">内容</label>
+          <%= f.text_field :content, class: "form-control", placeholder: "请输入名称" %>
+        </div>
+        <button type="submit" class="btn btn-default">保存</button>
+      <% end %>
+    </div>
+  </div>
+</div>

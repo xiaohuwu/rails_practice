@@ -1,34 +1,29 @@
-<%= form_for([@product, @variant]) do |f| %>
+<%= form_for(@variant) do |f| %>
   <% if @variant.errors.any? %>
-    <div id="error_expl" class="panel panel-danger">
-      <div class="panel-heading">
-        <h3 class="panel-title"><%= pluralize(@variant.errors.count, "error") %> prohibited this variant from being saved:</h3>
-      </div>
-      <div class="panel-body">
-        <ul>
-        <% @variant.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-        </ul>
-      </div>
+    <div id="error_explanation">
+      <h2><%= pluralize(@variant.errors.count, "error") %> prohibited this variant from being saved:</h2>
+
+      <ul>
+      <% @variant.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
     </div>
   <% end %>
 
-
-  <div class="form-group">
-    <%= f.label :price, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :price, :class => 'form-control' %>
-    </div>
-    <%= error_span(@variant[:price]) %>
+  <div class="field">
+    <%= f.label :product_id %><br>
+    <%= f.number_field :product_id %>
   </div>
-  <div class="form-group">
-    <%= f.label :size, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :size, :class => 'form-control' %>
-    </div>
-    <%= error_span(@variant[:size]) %>
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.text_field :price %>
   </div>
-  <%= f.submit nil, :class => 'btn btn-primary', :data => { :"disable-with" => "请稍等..." } %>
-
+  <div class="field">
+    <%= f.label :size %><br>
+    <%= f.text_field :size %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
 <% end %>
