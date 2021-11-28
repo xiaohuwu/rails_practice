@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Circles</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Circles</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="<%= new_user_path %>">注册</a></li>
+        <% if session[:user_id] %>
+          <li><%= link_to '退出', logout_sessions_path, method: :delete %></li>
+        <% else %>
+          <li><%= link_to '登录', new_session_path %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<body>
+<%= yield %>
+</body>
+</html>
