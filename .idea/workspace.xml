@@ -2,181 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6e4254-bc48-4626-b1f7-52ee02aa56b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Circle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/checkout_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/variants_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/address.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/blogs_tags.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/catalog.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/line_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/person.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/variant.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/home/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/users/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_flash.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_footer.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_navbar.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/application/_sider.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/checkout/address.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/checkout/cart.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/admin.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/devise.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/order_mailer/confirm_email.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/order_mailer/confirm_email.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/_errors.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/_input.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/_product.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/create.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/destroy.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/products/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_intro.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/_variant.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/variants/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/secrets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150318053105_create_products.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150328135848_create_variants.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150405093154_devise_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150430090443_add_color_to_variants.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150602124315_add_columns_to_products.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150610153357_create_addresses.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150612044358_create_orders.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150612052304_add_orders_count_to_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150612082502_create_line_items.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150613070440_create_join_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150613074050_create_catalogs.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150627170639_add_role_to_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_attendees/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_attendees/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_attendees/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_locations/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_locations/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event_locations/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/events/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/events/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/events/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -195,49 +34,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/event_locations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="-100">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20211128121107_add_user_id_to_line_item.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="27" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -245,8 +81,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/checkout_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="218">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/event.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/attendee.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/event_groupship.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -257,6 +120,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby File" />
+        <option value="Erb File" />
       </list>
     </option>
   </component>
@@ -272,6 +136,8 @@
       <find>editProductForm</find>
       <find>error_span</find>
       <find>line</find>
+      <find>cate</find>
+      <find>form_tag</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,36 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20211121113257_create_tags.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20211121113344_add_tag_blog.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20211123065750_create_employees.rb" />
-        <option value="$PROJECT_DIR$/app/models/employee.rb" />
-        <option value="$PROJECT_DIR$/app/models/blogs_tags.rb" />
-        <option value="$PROJECT_DIR$/app/models/tag.rb" />
-        <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/blog.rb" />
-        <option value="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/address.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/activerecord-5.1.2/lib/active_record/railties/databases.rake" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/blogs.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/products.coffee" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/variants/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/variants_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/_product.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/_input.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/_navbar.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/_flash.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/application/_sider.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb" />
@@ -331,6 +167,36 @@
         <option value="$PROJECT_DIR$/app/controllers/checkout_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129101530_create_clients.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129131915_add_status_to_events.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129135254_create_categories.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129131543_create_events.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129135418_create_attendees.rb" />
+        <option value="$PROJECT_DIR$/app/models/attendee.rb" />
+        <option value="$PROJECT_DIR$/app/models/category.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129140200_create_locations.rb" />
+        <option value="$PROJECT_DIR$/app/models/location.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20211129141447_create_groups.rb" />
+        <option value="$PROJECT_DIR$/app/models/event_groupship.rb" />
+        <option value="$PROJECT_DIR$/app/models/group.rb" />
+        <option value="$PROJECT_DIR$/app/views/event_attendees/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/event_attendees/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/event_attendees_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/event_attendees/edit.html.erb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/event_locations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/event_locations/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/event_locations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/event_locations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/events_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/events/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/edit.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/event.rb" />
+        <option value="$PROJECT_DIR$/app/models/member_ship.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
       </list>
     </option>
   </component>
@@ -342,10 +208,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="23" />
+    <option name="x" value="6" />
+    <option name="y" value="37" />
     <option name="width" value="1680" />
-    <option name="height" value="949" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
@@ -362,6 +228,12 @@
         <observation name="UNDEFINED" value="2.0" />
         <observation name="false" value="161.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="false" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="false" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="21-11-2021">
@@ -375,6 +247,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -391,6 +269,12 @@
         <observation name="false" value="162.0" />
         <observation name="true" value="1.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="false" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="false" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="21-11-2021">
@@ -404,6 +288,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -425,6 +315,16 @@
         <observation name="false" value="6.0" />
         <observation name="true" value="25.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="false" value="3.0" />
+        <observation name="true" value="7.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="3.0" />
+        <observation name="true" value="8.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="21-11-2021">
@@ -445,6 +345,15 @@
         <observation name="false" value="29.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="false" value="8.0" />
+        <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="11.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="21-11-2021">
@@ -464,6 +373,14 @@
         <observation name="UNDEFINED" value="132.0" />
         <observation name="false" value="31.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="false" value="10.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="11.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="21-11-2021">
@@ -481,6 +398,14 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="132.0" />
         <observation name="false" value="31.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="false" value="10.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="11.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -501,6 +426,14 @@
         <observation name="false" value="29.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="false" value="10.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="false" value="11.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="21-11-2021">
@@ -518,6 +451,14 @@
         <observation name="false" value="153.0" />
         <observation name="true" value="10.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="false" value="90.0" />
+        <observation name="true" value="5.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="false" value="35.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="21-11-2021">
@@ -531,6 +472,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -546,6 +493,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="21-11-2021">
@@ -559,6 +512,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -574,6 +533,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="21-11-2021">
@@ -587,6 +552,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -602,6 +573,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="21-11-2021">
@@ -615,6 +592,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -638,6 +621,16 @@
         <observation name="explicitSelect" value="91.0" />
         <observation name="typedSelect" value="72.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="cancelled" value="83.0" />
+        <observation name="explicitSelect" value="72.0" />
+        <observation name="typedSelect" value="23.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="cancelled" value="36.0" />
+        <observation name="explicitSelect" value="15.0" />
+        <observation name="typedSelect" value="21.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="21-11-2021">
@@ -652,6 +645,12 @@
       <dailyData date="28-11-2021">
         <observation name="BASIC" value="289.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="BASIC" value="164.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="BASIC" value="62.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="21-11-2021">
@@ -665,6 +664,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="count" value="336.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="count" value="178.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="count" value="72.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -693,6 +698,20 @@
         <observation name="UNDEFINED" value="2.0" />
         <observation name="average" value="0.0" />
         <observation name="count" value="321.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="71.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -728,6 +747,20 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="21-11-2021">
@@ -742,6 +775,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="21-11-2021">
@@ -755,6 +794,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -786,6 +831,20 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="613.018189" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="3.698413" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="136.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="107.616842" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="1.450704" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="11.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="4.224084" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="21-11-2021">
@@ -815,6 +874,20 @@
         <observation name="max" value="0.0" />
         <observation name="min" value="-1157.0" />
         <observation name="variance" value="274185.518738" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="-491.973545" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1157.0" />
+        <observation name="variance" value="278257.377451" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="-708.929577" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1155.0" />
+        <observation name="variance" value="238817.454834" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -846,6 +919,20 @@
         <observation name="min" value="-1000.0" />
         <observation name="variance" value="63417.6506" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="-63.068783" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="120.0" />
+        <observation name="min" value="-1000.0" />
+        <observation name="variance" value="62041.648458" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="-188.647887" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="100.0" />
+        <observation name="min" value="-1000.0" />
+        <observation name="variance" value="127186.012142" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="21-11-2021">
@@ -860,6 +947,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="21-11-2021">
@@ -873,6 +966,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -908,6 +1007,22 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.52844" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="85.0" />
+        <observation name="average" value="0.631579" />
+        <observation name="count" value="19.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.478089" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="25.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="21.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="21-11-2021">
@@ -921,6 +1036,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -948,6 +1069,20 @@
       <dailyData date="28-11-2021">
         <observation name="average" value="0.0" />
         <observation name="count" value="325.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="71.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -982,6 +1117,20 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="20.81012" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="8.322751" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="28.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="22.291435" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="6.816901" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="26.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="20.029153" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="21-11-2021">
@@ -995,6 +1144,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -1010,6 +1165,12 @@
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="21-11-2021">
@@ -1023,6 +1184,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -1054,6 +1221,20 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="21-11-2021">
@@ -1067,6 +1248,12 @@
       </dailyData>
       <dailyData date="28-11-2021">
         <observation name="UNDEFINED" value="163.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="UNDEFINED" value="95.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="UNDEFINED" value="36.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -1097,6 +1284,20 @@
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="21348229.821224" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="5423.301587" />
+        <observation name="count" value="189.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="20278043.583326" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="4421.014085" />
+        <observation name="count" value="71.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="18332105.338188" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -1155,6 +1356,27 @@
         <observation name="81" value="1.0" />
         <observation name="9" value="1.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="0" value="17.0" />
+        <observation name="1" value="19.0" />
+        <observation name="10" value="2.0" />
+        <observation name="11" value="1.0" />
+        <observation name="13" value="3.0" />
+        <observation name="136" value="1.0" />
+        <observation name="18" value="1.0" />
+        <observation name="2" value="18.0" />
+        <observation name="3" value="5.0" />
+        <observation name="4" value="3.0" />
+        <observation name="5" value="1.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="0" value="3.0" />
+        <observation name="1" value="6.0" />
+        <observation name="11" value="2.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="21-11-2021">
@@ -1172,6 +1394,14 @@
       <dailyData date="28-11-2021">
         <observation name="total" value="73.0" />
         <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="total" value="62.0" />
+        <observation name="withMnemonics" value="1.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="total" value="14.0" />
+        <observation name="withMnemonics" value="1.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -1212,6 +1442,28 @@
         <observation name="8" value="2.0" />
         <observation name="9" value="1.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="0" value="2.0" />
+        <observation name="1" value="8.0" />
+        <observation name="13" value="1.0" />
+        <observation name="15" value="1.0" />
+        <observation name="2" value="21.0" />
+        <observation name="21" value="1.0" />
+        <observation name="3" value="22.0" />
+        <observation name="4" value="7.0" />
+        <observation name="5" value="5.0" />
+        <observation name="6" value="2.0" />
+        <observation name="8" value="1.0" />
+        <observation name="9" value="1.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="1" value="1.0" />
+        <observation name="2" value="4.0" />
+        <observation name="3" value="3.0" />
+        <observation name="4" value="5.0" />
+        <observation name="7" value="1.0" />
+        <observation name="8" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="21-11-2021">
@@ -1230,6 +1482,14 @@
         <observation name="average" value="240.174224" />
         <observation name="count" value="419.0" />
       </dailyData>
+      <dailyData date="29-11-2021">
+        <observation name="average" value="304.326165" />
+        <observation name="count" value="279.0" />
+      </dailyData>
+      <dailyData date="30-11-2021">
+        <observation name="average" value="294.683673" />
+        <observation name="count" value="98.0" />
+      </dailyData>
     </factor>
   </component>
   <component name="ProjectView">
@@ -1237,7 +1497,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1260,14 +1519,19 @@
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
@@ -1331,6 +1595,13 @@
               <item name="Circle" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Circle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Circle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="order_mailer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1355,6 +1626,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -1363,7 +1635,7 @@
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/db/migrate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/events" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1376,11 +1648,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/events" />
       <recent name="$PROJECT_DIR$/db/migrate" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/controllers" />
-      <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1512,11 +1784,14 @@
       <workItem from="1638085734014" duration="362000" />
       <workItem from="1638086994999" duration="2516000" />
       <workItem from="1638096235666" duration="6097000" />
+      <workItem from="1638104989776" duration="112000" />
+      <workItem from="1638180848801" duration="1187000" />
+      <workItem from="1638191709274" duration="11234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30386000" />
+    <option name="totallyTimeSpent" value="42919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1528,10 +1803,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="23" width="1680" height="949" extended-state="0" />
+    <frame x="6" y="37" width="1680" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19315404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2304401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1544,7 +1819,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297362" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32374102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2713085" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32853717" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1561,246 +1836,6 @@
     <SUITE FILE_PATH="coverage/Circle@Development__Circle.rcov" NAME="Development: Circle Coverage Results" MODIFIED="1637480833652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Circle" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/products/update.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/variants/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/variant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/variants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/variants/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/variants/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_product.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_input.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/_flash.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/_sider.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150719071616_add_on_hand_to_variants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" lean-forward="true" selection-start-column="51" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150628073804_create_cart_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150627170639_add_role_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150613074050_create_catalogs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150613070440_create_join_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150612082502_create_line_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150612052304_add_orders_count_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" selection-start-column="58" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150612044358_create_orders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150610153357_create_addresses.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150602124315_add_columns_to_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150430090443_add_color_to_variants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150405093154_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150328135848_create_variants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/checkout/cart.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150318053105_create_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1836,13 +1871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1864,13 +1892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20211128121107_add_user_id_to_line_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1880,22 +1901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/checkout_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1903,9 +1910,285 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="374">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129101530_create_clients.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/actionview-5.1.2/lib/action_view/helpers/url_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="188" column="10" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129131915_add_status_to_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129131543_create_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129135418_create_attendees.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129135254_create_categories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129140200_create_locations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/location.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129141510_create_event_groupships.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20211129141447_create_groups.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_attendees/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/actionpack-5.1.2/lib/action_dispatch/routing/mapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1084">
+          <caret line="1415" column="12" selection-start-line="1415" selection-start-column="12" selection-end-line="1415" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_attendees/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_attendees/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/actionview-5.1.2/lib/action_view/helpers/form_options_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="810" column="35" selection-start-line="810" selection-start-column="26" selection-end-line="810" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/event_attendees_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.0/gems/activerecord-5.1.2/lib/active_record/nested_attributes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="318" column="10" selection-start-line="318" selection-start-column="10" selection-end-line="318" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_locations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_locations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/event_locations/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/events_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/event_locations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/checkout_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/event_groupship.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/member_ship.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/attendee.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

@@ -50,4 +50,21 @@ Rails.application.routes.draw do
 
     # Root
     root 'products#index'
+
+    resources :events do
+        resources :attendees, :controller => 'event_attendees'
+        resource :location, :controller => 'event_locations'
+        collection do
+            post :bulk_update
+        end
+
+        member do
+            post :join
+            post :withdraw
+        end
+
+    end
+
+
+
 end
